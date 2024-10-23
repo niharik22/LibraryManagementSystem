@@ -16,6 +16,8 @@ The following tables form the backbone of the system:
 - **Checkouts**: Manages book lending activities, tracking checkout, return dates, and overdue books.
 - **Writes**: Establishes the many-to-many relationship between books and authors.
 
+![Entity-Relationship Diagram](https://github.com/niharik22/LibraryManagementSystem/blob/main/ERD.png)
+
 ## Functions:
 Several MySQL functions were implemented to automate and facilitate core library operations:
 - `AUTHOR_EXISTS`: Verifies if an author exists in the database.
